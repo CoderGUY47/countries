@@ -1,0 +1,59 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "price": 9,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "Perfect for individuals and small projects",
+    "features": [
+      "100 AI agent runs/month",
+      "5 workflows",
+      "Basic analytics",
+      "Email support",
+      "1 team member"
+    ],
+    "isPopular": false,
+    "cta": "Get Started"
+  },
+  {
+    "id": 2,
+    "name": "Pro",
+    "price": 49,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "Best for growing teams and businesses",
+    "features": [
+      "5,000 AI agent runs/month",
+      "Unlimited workflows",
+      "Advanced analytics",
+      "Priority support",
+      "10 team members",
+      "Custom integrations",
+      "API access"
+    ],
+    "isPopular": true,
+    "cta": "Start Free Trial"
+  },
+  {
+    "id": 3,
+    "name": "Enterprise",
+    "price": 199,
+    "currency": "USD",
+    "billing": "monthly",
+    "description": "For large scale operations and enterprises",
+    "features": [
+      "Unlimited AI agent runs",
+      "Unlimited workflows",
+      "Real-time analytics dashboard",
+      "24/7 dedicated support",
+      "Unlimited team members",
+      "Custom AI model training",
+      "Full API access",
+      "SLA guarantee",
+      "On-premise deployment"
+    ],
+    "isPopular": false,
+    "cta": "Contact Sales"
+  }
+]

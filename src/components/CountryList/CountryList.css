@@ -1,0 +1,17 @@
+/* .countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} */
+/* .visited-flag-con {
+    display: flex;
+    width: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+} */
+/* .visited-flag-con img{
+    width: 150px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+} */
