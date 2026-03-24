@@ -5,12 +5,14 @@ import DaisyNav from './components/CountryList/DaisyNav/DaisyNav.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import PricingOptions from './components/PricingOptions/PricingOptions.jsx'
 import ResultCharts from './components/ResultCharts/ResultCharts.jsx'
+import axios from 'axios'
+import MarkChart from './components/MarkChart/MarkChart.jsx'
 
 const countriesPromise = fetch("https://openapi.programming-hero.com/api/all")
-.then(res => res.json())
+  .then(res => res.json())
+const markPromise = axios.get("marksData.json")
 
-const pricingPlansPromise = fetch("pricingPlans.json")
-.then(res => res.json())
+const pricingPlansPromise = fetch("pricingPlans.json").then(res => res.json())
 
 function App() {
   return (
@@ -27,9 +29,16 @@ function App() {
           <PricingOptions pricingPlansPromise={pricingPlansPromise}></PricingOptions> 
        </Suspense>
 
-
+       <Suspense fallback={<span className='loading loading-spinner loading-lg'></span>}>
+          <ResultCharts markPromise={markPromise}></ResultCharts>
+       </Suspense>
+ 
        {/* jehetu json call korsi na, ty suspense use kora lgbe name */}
        <ResultCharts></ResultCharts>
+
+       <Suspense fallback={<span className='loading loading-spinner loading-lg'></span>}>
+          <MarkChart markPromise={markPromise}></MarkChart>
+       </Suspense>
       </main>
     </>
   )

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Arif Hossain",
+    "math": 85,
+    "english": 72,
+    "science": 90,
+    "history": 68
+  },
+  {
+    "id": 2,
+    "name": "Nadia Islam",
+    "math": 92,
+    "english": 88,
+    "science": 78,
+    "history": 85
+  },
+  {
+    "id": 3,
+    "name": "Rahim Uddin",
+    "math": 60,
+    "english": 75,
+    "science": 65,
+    "history": 70
+  },
+  {
+    "id": 4,
+    "name": "Sumaiya Akter",
+    "math": 78,
+    "english": 90,
+    "science": 82,
+    "history": 91
+  },
+  {
+    "id": 5,
+    "name": "Karim Molla",
+    "math": 55,
+    "english": 60,
+    "science": 58,
+    "history": 62
+  },
+  {
+    "id": 6,
+    "name": "Fatema Begum",
+    "math": 88,
+    "english": 84,
+    "science": 91,
+    "history": 79
+  },
+  {
+    "id": 7,
+    "name": "Sabbir Ahmed",
+    "math": 73,
+    "english": 67,
+    "science": 74,
+    "history": 55
+  },
+  {
+    "id": 8,
+    "name": "Mitu Rani",
+    "math": 95,
+    "english": 93,
+    "science": 88,
+    "history": 96
+  },
+  {
+    "id": 9,
+    "name": "Zahid Hasan",
+    "math": 66,
+    "english": 71,
+    "science": 69,
+    "history": 74
+  },
+  {
+    "id": 10,
+    "name": "Puja Das",
+    "math": 81,
+    "english": 85,
+    "science": 77,
+    "history": 83
+  }
+]
