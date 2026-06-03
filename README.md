@@ -22,6 +22,7 @@
 
 - [✨ Overview](#-overview)
 - [❌ The Problem & ✅ The Solution](#-the-problem---the-solution)
+- [🚀 Live Link](#-live-link)
 - [💡 Business Value & Analytics](#-business-value--analytics)
 - [🚀 Key Features](#-key-features)
 - [📦 Tech Stack & Architecture](#-tech-stack--architecture)
@@ -51,6 +52,29 @@ API requests are handled via **Axios** with clean async/await patterns, and Rech
 | Static maps with no interactive data points | **DaisyUI flag cards** with hover detail panels for flag, capital, and currency |
 | Long search times through alphabetical country lists | **Debounced search input** filtering 250+ countries in real time |
 | No regional filtering for focused geographic study | **Region/subregion dropdown** narrowing results to specific global zones |
+
+---
+
+## 🚀 Live Link
+
+→ [View Countries Explorer Live Demo](https://countries-explorer-coderguy47.vercel.app/)
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=880&h=495&auto=format&fit=crop" alt="Countries Globe" width="100%" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover" />
+    </td>
+    <td width="50%">
+      <img src="https://images.unsplash.com/photo-1529313780224-1a12b68bed16?q=80&w=880&h=495&auto=format&fit=crop" alt="Countries Analytics" width="100%" style="border-radius:8px;aspect-ratio:16/9;object-fit:cover" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><sub>🌏 250+ Country Cards with Live API Data</sub></td>
+    <td align="center"><sub>📊 Population Analytics & Regional Charts</sub></td>
+  </tr>
+</table>
 
 ---
 
